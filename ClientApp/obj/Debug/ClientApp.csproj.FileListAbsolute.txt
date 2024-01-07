@@ -1,0 +1,9 @@
+D:\Final_Project\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
+D:\Final_Project\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+D:\Final_Project\ClientApp\bin\Debug\ClientApp.exe.config
+D:\Final_Project\ClientApp\bin\Debug\ClientApp.exe
+D:\Final_Project\ClientApp\bin\Debug\ClientApp.pdb
+D:\Final_Project\ClientApp\obj\Debug\ClientApp.exe
+D:\Final_Project\ClientApp\obj\Debug\ClientApp.pdb
+D:\Final_Project\ClientApp\bin\Debug\OpenHardwareMonitorLib.dll
+D:\Final_Project\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
