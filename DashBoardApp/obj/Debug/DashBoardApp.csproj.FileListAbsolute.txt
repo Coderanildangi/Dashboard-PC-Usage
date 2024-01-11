@@ -1,0 +1,66 @@
+D:\Final_Project\DashBoardApp\bin\Debug\DashBoardApp.exe.config
+D:\Final_Project\DashBoardApp\bin\Debug\DashBoardApp.exe
+D:\Final_Project\DashBoardApp\bin\Debug\DashBoardApp.pdb
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.AssemblyReference.cache
+D:\Final_Project\DashBoardApp\obj\Debug\MainWindow.g.cs
+D:\Final_Project\DashBoardApp\obj\Debug\App.g.cs
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.cache
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.lref
+D:\Final_Project\DashBoardApp\obj\Debug\MainWindow.baml
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.g.resources
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.Properties.Resources.resources
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.GenerateResource.cache
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.CoreCompileInputs.cache
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.exe
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.pdb
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.dll
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.pdb
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.xml
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Final_Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Final_Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.CopyComplete
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.AssemblyReference.cache
+D:\Project\DashBoardApp\obj\Debug\App.g.cs
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.cache
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.exe
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.pdb
+D:\Project\DashBoardApp\obj\Debug\MainWindow.g.cs
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.lref
+D:\Project\DashBoardApp\bin\Debug\DashBoardApp.exe.config
+D:\Project\DashBoardApp\bin\Debug\DashBoardApp.exe
+D:\Project\DashBoardApp\bin\Debug\DashBoardApp.pdb
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.dll
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.pdb
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.xml
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Project\DashBoardApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Project\DashBoardApp\obj\Debug\MainWindow.baml
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.g.resources
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.Properties.Resources.resources
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.GenerateResource.cache
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.CoreCompileInputs.cache
+D:\Project\DashBoardApp\obj\Debug\DashBoardApp.csproj.CopyComplete
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\DashBoardApp.exe.config
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\DashBoardApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\DashBoardApp.pdb
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.dll
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.pdb
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.xml
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.csproj.AssemblyReference.cache
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\MainWindow.g.cs
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\App.g.cs
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.cache
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp_MarkupCompile.lref
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\MainWindow.baml
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.g.resources
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.Properties.Resources.resources
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.csproj.GenerateResource.cache
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.csproj.CoreCompileInputs.cache
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.csproj.CopyComplete
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\DashBoardApp\obj\Debug\DashBoardApp.pdb
