@@ -6,6 +6,9 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
+/// This class connects client to server.
+/// 
+
 namespace ClientApp.src
 {
     internal class Connector
@@ -30,12 +33,12 @@ namespace ClientApp.src
                     // Connecting to Server.
                     clientSocket.Connect(serverEndPoint);
 
-                    if(count == 0)
+                    if(mCount == 0)
                     {
                         Console.WriteLine("===================================================================================");
                         Console.WriteLine("Client Successfully Connected to Remote Server with IP Address : " + mServerIP + ":" + mServerPort);
                         Console.WriteLine("===================================================================================");
-                        count++;
+                        mCount++;
                     }
                     
                     // Storing data into single string stream.
@@ -57,6 +60,7 @@ namespace ClientApp.src
             }
 
         }
+
         // ------------------------------------------------
         // Private Data Members.
 
@@ -67,6 +71,6 @@ namespace ClientApp.src
         private const int mServerPort = 8080;
 
         // static member.
-        private static int count = 0;
+        private static int mCount = 0;
     }
 }

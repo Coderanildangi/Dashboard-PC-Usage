@@ -12,3 +12,10 @@ D:\Project\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
 D:\Project\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
 D:\Project\ServerApp\obj\Debug\ServerApp.exe
 D:\Project\ServerApp\obj\Debug\ServerApp.pdb
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\bin\Debug\ServerApp.exe.config
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\bin\Debug\ServerApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\bin\Debug\ServerApp.pdb
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\obj\Debug\ServerApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\ServerApp\obj\Debug\ServerApp.pdb

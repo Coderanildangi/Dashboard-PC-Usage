@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenHardwareMonitor.Hardware;
 
+/// This class collects system performance parameters
+/// 
+
 namespace ClientApp.src
 {
     internal class ComputerPerformance
@@ -157,6 +160,7 @@ namespace ClientApp.src
         // ----------------------------------------------------------
         // Private Data members.
 
+        // Creating object of Computer class of Open Hardware Monitor API.
         private static Computer computer = new Computer()
         {
             GPUEnabled = true,
@@ -166,8 +170,6 @@ namespace ClientApp.src
             FanControllerEnabled = true,
             HDDEnabled = true, 
         };
-
-
 
         // CPU Usage.
         private static float mCPUUsage;

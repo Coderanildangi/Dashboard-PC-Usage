@@ -25,8 +25,6 @@ namespace DashBoardApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Timer dataFetchTimer;
-        private string selectedClient = "DefaultClient"; // Change this to your logic for selecting a client
 
         // Declaring Gauge object for using Gauge Chart in XAML.
         public Gauge CPUData { get; set; } = new Gauge();
@@ -68,16 +66,16 @@ namespace DashBoardApp
         {
             if (clientComboBox.SelectedItem != null)
             {
-                selectedClient = clientComboBox.SelectedItem.ToString(); 
+                mSelectedClient = clientComboBox.SelectedItem.ToString(); 
 
                
 
                 // Fetch and update real-time data for the selected client
                 //GetRealTimeData(null); 
 
-                dataFetchTimer = new Timer(GetRealTimeData, null, 1000, 1000); 
+                mDataFetchTimer = new Timer(GetRealTimeData, null, 1000, 1000); 
 
-                UsageModel usageModel = DataBaseHandler.GetUsageData(selectedClient);
+                UsageModel usageModel = DataBaseHandler.GetUsageData(mSelectedClient);
 
                 // Update the UI with the latest data using Dispatcher
                 Application.Current.Dispatcher.Invoke(() =>
@@ -95,7 +93,7 @@ namespace DashBoardApp
         private void GetRealTimeData(object state)
         {
             // Fetch updated data from the database for the selected client
-            UsageModel usageData = DataBaseHandler.GetUsageData(selectedClient);
+            UsageModel usageData = DataBaseHandler.GetUsageData(mSelectedClient);
 
             // Method to get averarge data of all machines.
 
@@ -158,6 +156,13 @@ namespace DashBoardApp
                 }
             }
         }
+
+        /// ----------------------------------------------------
+        /// Private Members of Class.
+
+        private Timer mDataFetchTimer;
+
+        private string mSelectedClient = "DefaultClient";
 
     }
 }

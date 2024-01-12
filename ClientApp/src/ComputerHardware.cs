@@ -7,6 +7,9 @@ using System.Management;
 using Microsoft.VisualBasic.Devices;
 using System.CodeDom.Compiler;
 
+/// This class collects Computer Hardware information.
+/// 
+
 namespace ClientApp.src
 {
     internal class ComputerHardware : Microsoft.VisualBasic.Devices.ServerComputer

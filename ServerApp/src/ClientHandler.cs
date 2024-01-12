@@ -7,6 +7,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+/// This class handles requests from clients PCs connected in LAN.
+/// 
+
 namespace ServerApp.src
 {
     internal class ClientHandler
@@ -80,30 +83,6 @@ namespace ServerApp.src
             }
             
         }
-
-        // Method to check client Connection is alive.
-        //private static void checkClientConnection(string ipAddress, string machineName, NetworkStream stream)
-        //{
-        //    try
-        //    {
-        //        while (true)
-        //        {
-        //            // Send a signal to the client every 30 seconds
-        //            //byte[] checkSignal = Encoding.UTF8.GetBytes("Checking Connection !!");
-        //            //stream.Write(checkSignal, 0, checkSignal.Length);
-
-        //            // Thread sleeps for 30 seconds.
-        //            Thread.Sleep(30000);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        //Console.WriteLine($"Connection Error for {ipAddress} - {machineName}: {ex.Message}");
-
-        //        // Mark client as disconnected if an error occurs
-        //        DataBaseHandler.updateConnectionStatus(ipAddress, false);
-        //    }
-        //}
 
     }
 }

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.Data.SqlClient;
 
+
+/// This class handles Database Connection and Data transfer with it.
+/// 
+
+
 namespace ServerApp.src
 {
     internal class DataBaseHandler
@@ -16,14 +21,14 @@ namespace ServerApp.src
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(mConnectionString))
                 {
                     connection.Open();
 
-                    if(count == 0)
+                    if(mCount == 0)
                     {
                         Console.WriteLine("Database Connected...");
-                        count++;
+                        mCount++;
                     }
 
                     // Sql Query to Save or Update Data into Database.
@@ -70,7 +75,7 @@ namespace ServerApp.src
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(mConnectionString))
                 {
                     connection.Open();
                     string query = "UPDATE ClientSystemData SET IsConnected = @IsConnected WHERE IPAddress = @IPAddress";
@@ -91,9 +96,9 @@ namespace ServerApp.src
         // Private Data Members.
 
         // Connection string for SQL SERVER Daabase.
-        private const string connectionString = @"Server=DESKTOP-9UFDCFP;Database=ClientDataDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;Integrated Security=True;";
+        private const string mConnectionString = @"Server=DESKTOP-9UFDCFP;Database=ClientDataDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;Integrated Security=True;";
     
         // Static member.
-        private static int count = 0;
+        private static int mCount = 0;
     }
 }

@@ -50,3 +50,5 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 ## License
 
 This project is licensed under [MIT License](LICENSE).
+
+## Class Architecture Diagram

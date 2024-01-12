@@ -16,3 +16,12 @@ D:\Project\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
 D:\Project\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
 D:\Project\ClientApp\obj\Debug\ClientApp.exe
 D:\Project\ClientApp\obj\Debug\ClientApp.pdb
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\bin\Debug\ClientApp.exe.config
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\bin\Debug\ClientApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\bin\Debug\ClientApp.pdb
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\bin\Debug\OpenHardwareMonitorLib.dll
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\obj\Debug\ClientApp.exe
+D:\Dashboard App\Dashboard-PC-Usage\ClientApp\obj\Debug\ClientApp.pdb

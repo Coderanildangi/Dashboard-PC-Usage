@@ -7,6 +7,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+/// This class establishes server on Given IP address.
+/// 
+
+
 namespace ServerApp.src
 {
     internal class Server
