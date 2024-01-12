@@ -71,6 +71,7 @@ namespace ServerApp.src
             // If return true update the valu of IsConnected accordingly.
             while(true)
             {
+                
                 if (!client.Connected)
                 {
                     // Update.

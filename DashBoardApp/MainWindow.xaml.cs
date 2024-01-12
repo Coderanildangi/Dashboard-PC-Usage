@@ -43,7 +43,7 @@ namespace DashBoardApp
         {
             InitializeComponent();
 
-            LoadAvailableClients(); // Load available clients when the window initializes
+            LoadAvailableClients();
         }
 
         private void LoadAvailableClients()
@@ -99,11 +99,13 @@ namespace DashBoardApp
 
 
             //Check if the client is connected
-            if (!usageData.mIsConnected)
+            // Exit the method if the client is not connected
+            /*if (!usageData.mIsConnected && mCount == 0)
             {
                 MessageBox.Show("Client is not connected to the remote server.");
-                return; // Exit the method if the client is not connected
-            }
+                mCount++;
+                return;
+            }*/
 
             // Update UI with the latest data using Dispatcher
             Application.Current.Dispatcher.Invoke(() =>
@@ -132,27 +134,24 @@ namespace DashBoardApp
         {
             // Fetch System info.
             // Creating Object of UsageModel Class.
-            UsageModel usageModel = new UsageModel();
+            UsageModel usageModel = DataBaseHandler.GetUsageData(mSelectedClient);
 
             if (sender is Image clickedImage)
             {
                 if (clickedImage.Name == "cpuImage")
                 {
                     // Display CPU data or perform an action
-                    // For example:
-                    MessageBox.Show("CPU data clicked!");
+                    MessageBox.Show(usageModel.mCPU);
                 }
                 else if (clickedImage.Name == "ramImage")
                 {
                     // Display RAM data or perform an action
-                    // For example:
-                    MessageBox.Show("RAM data clicked!");
+                    MessageBox.Show($"Total RAM size : {usageModel.mRAM}");
                 }
                 else if (clickedImage.Name == "diskImage")
                 {
                     // Display Disk data or perform an action
-                    // For example:
-                    MessageBox.Show("Disk data clicked!");
+                    MessageBox.Show(usageModel.mDisk);
                 }
             }
         }
@@ -163,6 +162,8 @@ namespace DashBoardApp
         private Timer mDataFetchTimer;
 
         private string mSelectedClient = "DefaultClient";
+
+        private static int mCount = 0;
 
     }
 }

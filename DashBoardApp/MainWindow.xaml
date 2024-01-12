@@ -52,7 +52,11 @@
         <!-- Chart for DISK Usage %-->
         <Label HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1">DISK USAGE (%)</Label>
 
-        <lvc:Gauge Grid.Row="4" From="0" To="100" Grid.Column="1" Value="{Binding DiskData.Value}" Margin="10"></lvc:Gauge>
+        <lvc:Gauge Grid.Row="4" Grid.Column="1" Margin="20,20,20,5"
+                   Uses360Mode="True"
+                   From="0" To="100" Value="{Binding DiskData.Value}"
+                   HighFontSize="60" Foreground="White"
+                   InnerRadius="0" GaugeBackground="#BE54A3E9"/>
 
         <!-- Images input CPU, RAM, DISK-->
         <Image x:Name="cpuImage" HorizontalAlignment="Left" Height="144" Margin="23,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="166" Source="D:/Project/Images/cpu.jfif" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
@@ -94,7 +98,7 @@
                           FontWeight="Bold" FontSize="16"
                           SectionsInnerRadius=".5" Margin="15,25,15,5">
             <lvc:AngularGauge.Sections>
-                <lvc:AngularSection FromValue="0" ToValue="534" Fill="LightGreen"/>
+                <lvc:AngularSection FromValue="0" ToValue="534" Fill="Green"/>
                 <lvc:AngularSection FromValue="534" ToValue="1067" Fill="#F8A725" />
                 <lvc:AngularSection FromValue="1067" ToValue="1600" Fill="#FF3939"/>
             </lvc:AngularGauge.Sections>

@@ -17,7 +17,7 @@ namespace DashBoardApp.DAL
             List<string> clients = new List<string>();
             try
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(mConnectionString))
                 {
                     connection.Open();
                     string query = "SELECT DISTINCT machineName FROM ClientSystemData";
@@ -46,11 +46,11 @@ namespace DashBoardApp.DAL
             UsageModel usageData = new UsageModel();
             try
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlConnection connection = new SqlConnection(mConnectionString))
                 {
                     // Connecting to database.
                     connection.Open();
-
+                    
                     string query = "SELECT * FROM ClientSystemData WHERE machineName = @MachineName";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@MachineName", machineName);
@@ -91,7 +91,7 @@ namespace DashBoardApp.DAL
         // Private Data members.
 
         // Connection string for data base connection.
-        private const string connectionString = @"Server=DESKTOP-9UFDCFP;Database=ClientDataDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;Integrated Security=True;"; 
+        private const string mConnectionString = @"Server=DESKTOP-9UFDCFP;Database=ClientDataDB;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true;Integrated Security=True;"; 
 
     }
 }

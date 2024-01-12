@@ -28,8 +28,12 @@ namespace ServerApp.src
                     if(mCount == 0)
                     {
                         Console.WriteLine("Database Connected...");
+                        SqlCommand clearAll = new SqlCommand("TRUNCATE TABLE ClientSystemData", connection);
+                        clearAll.ExecuteNonQuery();
                         mCount++;
                     }
+
+                    // SQL query to delete table data before adding it
 
                     // Sql Query to Save or Update Data into Database.
                     string query = "IF EXISTS (SELECT 1 FROM ClientSystemData WHERE IPAddress = @IPAddress) " +
