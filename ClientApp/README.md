@@ -110,3 +110,5 @@ We welcome contributions! If you find any issues or have ideas for improvements,
 This project is licensed under the [CCtech].
 
 ## Output
+
+![Client](https://github.com/Coderanildangi/Dashboard-PC-Usage/assets/149321466/2d5c8a28-6df1-4033-a819-40a858a42101)
