@@ -49,7 +49,7 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 
 ## License
 
-This project is licensed under [MIT License](LICENSE).
+This project is licensed under CCtech.
 
 ## Class Architecture Diagram
 
