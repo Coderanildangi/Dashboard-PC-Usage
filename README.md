@@ -52,3 +52,5 @@ Contributions are welcome! Fork the repository, make your changes, and submit a 
 This project is licensed under [MIT License](LICENSE).
 
 ## Class Architecture Diagram
+
+![ArchitectureClass](https://github.com/Coderanildangi/Dashboard-PC-Usage/assets/149321466/4cb473bb-af22-458b-bf4c-5986ac13d37b)
