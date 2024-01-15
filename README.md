@@ -54,3 +54,7 @@ This project is licensed under [MIT License](LICENSE).
 ## Class Architecture Diagram
 
 ![ArchitectureClass](https://github.com/Coderanildangi/Dashboard-PC-Usage/assets/149321466/4cb473bb-af22-458b-bf4c-5986ac13d37b)
+
+## Video Output
+
+[video.webm](https://github.com/Coderanildangi/Dashboard-PC-Usage/assets/149321466/2f670c0d-3f1a-4d91-ad7e-d626980adcda)
