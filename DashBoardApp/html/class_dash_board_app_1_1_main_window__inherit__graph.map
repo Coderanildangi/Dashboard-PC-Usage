@@ -1,5 +1,0 @@
-<map id="DashBoardApp.MainWindow" name="DashBoardApp.MainWindow">
-<area shape="rect" id="Node000001" title="Interaction logic for MainWindow.xaml." alt="" coords="5,123,183,363"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="65,5,123,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,90,97,123,91,123,91,90"/>
-</map>
