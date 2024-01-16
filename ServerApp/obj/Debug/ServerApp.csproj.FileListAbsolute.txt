@@ -1,7 +1,0 @@
-D:\Final_Project\ServerApp\bin\Debug\ServerApp.exe.config
-D:\Final_Project\ServerApp\bin\Debug\ServerApp.exe
-D:\Final_Project\ServerApp\bin\Debug\ServerApp.pdb
-D:\Final_Project\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
-D:\Final_Project\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
-D:\Final_Project\ServerApp\obj\Debug\ServerApp.exe
-D:\Final_Project\ServerApp\obj\Debug\ServerApp.pdb
